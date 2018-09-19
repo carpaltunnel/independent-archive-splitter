@@ -1,0 +1,20 @@
+{
+  "name": "tar-split",
+  "version": "1.0.0",
+  "description": "A way to intelligently create multiple independent archives - no more byte splits!",
+  "main": "tar-split.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carpaltunnel/independent-archive-splitter.git"
+  },
+  "author": "carpaltunnel",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "tar-fs": "^1.16.3",
+    "tar-stream": "^1.6.1"
+  }
+}
