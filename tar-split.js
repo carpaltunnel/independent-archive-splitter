@@ -16,7 +16,7 @@
         --outputPrefix <string> or -o : Prefix for the generated independent archives
         --splitSize <int> or -s : Maximum size for each output archive (see Warnings) in *MB*
         --gzipOutput <boolean> or -z : Compress the output archives with GZip compression (generates a .tar.gz)
-        --overwriteExisting <boolean> or -f : If the target about archives exist, overwrite them.
+        --overwriteExisting <boolean> or -f : If the target archives exist, overwrite them.
         --manifest <boolean> or -m : Generate a text file that shows the files that are contained in each generated archive.  
             Useful for finding where a certain file landed.
         --verbose <boolean> or -v : Show file names as they are added and print when new splits are created.
